@@ -1,0 +1,76 @@
+.main-div {
+  height: 400px;
+  width: 500px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  row-gap: 20px;
+  column-gap: 10px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  /* row,column,row-reverse and column-reverse, wrap,nowrap,space-between,space-around,space-evenly, center,flex-start,flex-end */
+}
+.box {
+  height: 100px;
+  width: 100px;
+}
+.b1 {
+  background-color: aqua;
+}
+.b2 {
+  background-color: black;
+  color: white;
+}
+.b3 {
+  background-color: pink;
+}
+.b4 {
+  background-color: purple;
+}
+.b5 {
+  background-color: tomato;
+}
+.b6 {
+  background-color: gray;
+}
+
+/* card */
+.twitter-main-div {
+  border: 2px solid black;
+  height: 400px;
+  width: 300px;
+  border-radius: 7px;
+}
+.instagram-main-div {
+  border: 2px solid black;
+  height: 400px;
+  width: 300px;
+  border-radius: 7px;
+}
+.youtube-main-div {
+  border: 2px solid black;
+  height: 400px;
+  width: 300px;
+  border-radius: 7px;
+}
+.card-main-div {
+  display: flex;
+  gap: 20px;
+}
+.brand-name {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Read-more-btn {
+  background-color: black;
+  color: white;
+  padding: 9px;
+  width: 177px;
+  border-radius: 29px;
+}
+
+.second-main-div {
+  display: flex;
+  flex-wrap: wrap;
+}

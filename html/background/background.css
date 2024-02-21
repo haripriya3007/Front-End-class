@@ -1,0 +1,22 @@
+.main-div {
+  background-image: url(../images/imagePic.jpg);
+  background-repeat: repeat-x;
+  background-position: center;
+  /* height: 500px;
+  width: 500px; */
+  border: 2px solid black;
+  background-attachment: fixed;
+}
+/* .inner-main-div {
+  height: 475px;
+  width: 300px;
+  border: 1px solid purple;
+}
+.profile-img {
+  height: 150px;
+  width: 150px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  background-image: url(../images/imagePic.jpg);
+  background-size: cover;
+} */

@@ -1,0 +1,29 @@
+.main-div {
+  border: 2px solid gray;
+  width: 500px;
+  height: 400px;
+}
+.box {
+  height: 100px;
+  width: 100px;
+}
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: rgb(43, 255, 0);
+  position: fixed;
+  left: 70px;
+  bottom: 0;
+  top: 0;
+}
+.box3 {
+  background-color: rgb(98, 0, 255);
+}
+
+/* 1. static - default, 2.relative,3.absolute, 4.sticky,5.fixed */
+
+/* position- relative ( TRLB) */
+
+/* position- absolute (relative - P.D, LRTB - C.D) */
+/* position - fixed (LRTB) */

@@ -1,0 +1,25 @@
+.para {
+  /* border-width: 10px 20px 30px 40px;
+  border-style: solid;
+  border-color: #008b8b; */
+
+  border: 2px solid #008b8b;
+  border-radius: 50px;
+}
+.box1 {
+  height: 100px;
+  width: 100px;
+  background-color: #008b8b;
+  border-radius: 50px;
+}
+.head {
+  color: blue;
+  text-transform: lowercase;
+
+  /* text-align: center; */
+  /* direction: rtl; */
+}
+.link-tag {
+  text-decoration-style: dotted;
+  text-decoration-line: overline;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        // switch
+
+        let a = 40;
+        switch (a) {
+            case 38:
+                console.log("a is 38");
+                break;
+            case 39:
+                console.log("a is 39");
+                break;
+            default:
+                console.log("working default")
+        }
+
+        // calculator
+
+        const operator = prompt("Enter operator");
+        console.log(typeof (operator))
+        const n1 = parseInt(prompt("Enter number 1 value"));
+        console.log(typeof (n1))
+        const n2 = parseInt(prompt("Enter number 2 value"));
+
+        switch (operator) {
+            case "+":
+                // let addResult = n1 + n2;
+                console.log(n1 + n2, "addResult")
+                break;
+            case "-":
+                // let SubResult = n1 - n2;
+                console.log(n1 - n2, "SubResult")
+                break;
+            case "*":
+                // let MulResult = n1 * n2;
+                console.log(n1 * n2, "MulResult")
+                break;
+            case "/":
+                // let DivResult = n1 / n2;
+                console.log(n1 / n2, "DivResult");
+                break;
+            default:
+                console.log("something went wrong!! you entered wrong operator")
+        }
+
+
+    </script>
+
+</body>
+
+</html>

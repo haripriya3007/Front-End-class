@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <table border="1" cellPadding="20">
+        <tr>
+            <th>R:no</th>
+            <th>Name</th>
+            <th>Total marks</th>
+            <th>Rank</th>
+        </tr>
+        <tr>
+            <td>ST001</td>
+            <td>aaaa</td>
+            <td>490</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>ST001</td>
+            <td>aaaa</td>
+            <td>490</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>ST001</td>
+            <td>aaaa</td>
+            <td>490</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>ST001</td>
+            <td>aaaa</td>
+            <td>490</td>
+            <td>2</td>
+        </tr>
+    </table>
+    <script>
+        // for of loop
+
+        const department = ['CSE', 'IT', 'ECE'];
+        for (let items of department) {
+            console.log(items)
+        }
+
+        // const studentObj = [
+        //     {
+        //         regNo: 'ST001',
+        //         name: 'aaaa',
+        //         totalMarks: 490,
+        //         rank: 2
+        //     },
+        //     {
+        //         regNo: 'ST002',
+        //         name: 'bbbb',
+        //         totalMarks: 420,
+        //         rank: 12
+        //     },
+        //     {
+        //         regNo: 'ST003',
+        //         name: 'ccc',
+        //         totalMarks: 410,
+        //         rank: 13
+        //     },
+        //     {
+        //         regNo: 'ST004',
+        //         name: 'dddd',
+        //         totalMarks: 300,
+        //         rank: 20
+        //     },
+        // ]
+        // console.log(studentObj, "students data")
+
+        // for (let data of studentObj) {
+        //     console.log(data, 'data')
+        // }
+
+
+        // for in
+
+        for (let data in department) {
+            console.log(data, department[data], "data")
+        }
+
+
+    </script>
+
+</body>
+
+</html>

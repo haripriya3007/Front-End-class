@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        var myArray = [];
+
+        var food = ['briyani', 300, true];  // array 1
+        console.log(food, "food")
+
+        // const foodLength = food.length;
+        // console.log(foodLength, "length")
+
+        // index 0, 1, 2 .....
+
+        // array methods - push(),pop(),length,shift(),unshift(), concat(),join()
+
+        const pushData = food.push('active')
+        console.log(food, "pushData") // it adds data in last index
+
+        const popedData = food.pop();  // it removes elements from last index
+        console.log(popedData);
+        console.log(food, "popedData")
+
+        const unshiftData = food.unshift('sample');  // it adds data in first index
+        console.log(food, "unshiftData")
+
+        const shiftData = food.shift();  // it removes elements from first index
+        console.log(food, "shiftData")
+        // toString()
+
+        const coursesList = ['CSE', 'IT', 'ECE'];   // array 2
+        console.log(coursesList.toString(), 'coursesList')
+
+        // concat
+
+        const concatData = food.concat(coursesList);
+        console.log(concatData, "concatData")
+
+        const addAnotherElement = coursesList.concat('EEE');
+        console.log(addAnotherElement);
+
+        // flat()
+        const numberedArray = [[1, 2], [3, 4], [5, 6]];
+        console.log(numberedArray.flat(), "number array");
+
+        // slice()
+        const slicedData = coursesList.slice(0, 2);
+        console.log(slicedData, "slicedData")
+
+        // splice()
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+        // At position 2, add 2 elements: 
+        const spliceData = fruits.splice(2, 1, "Lemon", "Kiwi");
+        console.log(fruits, "spliceData")
+
+        // Looping
+
+        // 1. for loop - entry control loop
+        // 2. while loop - entry control loop
+        // 3. do while loop - exit control loop
+
+        // functions
+
+        function myFun() {  // function declaration
+
+            let a = 10;
+            let b = 12;
+            const res = a + b
+            console.log(res, "res")
+        }
+        myFun()  // function call
+
+
+    </script>
+
+
+</body>
+
+</html>

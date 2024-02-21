@@ -1,0 +1,53 @@
+.box {
+  /* height: 300px; */
+}
+.b1 {
+  background-color: aqua;
+}
+.b2 {
+  background-color: black;
+  color: white;
+}
+.b3 {
+  background-color: pink;
+}
+.b4 {
+  background-color: purple;
+}
+.b5 {
+  background-color: tomato;
+}
+.b6 {
+  background-color: gray;
+}
+/* grid */
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  /* column-gap: 20px;
+  row-gap: 20px; */
+  gap: 30px;
+  grid-template-rows: 200px 500px auto;
+}
+
+/*  */
+.second-main-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.box {
+  height: 100px;
+  border: 1px solid red;
+}
+/* .box1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+} */
+
+/* .box1 {
+  grid-column: 1/3;
+} */
+.box1 {
+  grid-column: span 2;
+}

@@ -1,0 +1,35 @@
+/* universal selectors */
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* class selectors */
+.my-para {
+  font-size: 40px;
+  color: blue;
+}
+
+/* id selectors */
+#my-second-para {
+  color: red;
+}
+
+/* group selectors */
+.login-cls,
+.register-cls {
+  background-color: green;
+  color: white;
+}
+
+/* simple selectors */
+h4 {
+  color: red;
+  font-size: 20px;
+}
+
+.main-content {
+  border: 10px solid red;
+}
+.box-para {
+  padding: 20px;
+}

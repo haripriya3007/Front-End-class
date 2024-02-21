@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="view.js"></script> -->
+</head>
+
+<body>
+
+    <!-- js output elements - .innerHtml, console.log, document.write, prompt, alert -->
+
+    <p id="demo"></p>
+
+
+    <script>
+
+
+
+        let z;
+        z = 90;
+        z = 900;  // re assign
+
+        console.log(z)
+
+        var y;
+        y = 29;
+        y = 1000; // re assign
+        console.log(y,)
+
+        const j = 78;
+        j = 7800   // const does not support for reassign
+        console.log(j)
+
+        // scopes - local scope (let, const ) , global scope ( var)
+
+        var b = 30;
+        function checkScope() {
+            let a = 14;
+            console.log(a, "a , inside the function")
+            console.log(b, "b , inside the function")
+        }
+        checkScope()
+        console.log(b, "b , outside the function")
+        console.log(a, "a , outside the function")
+
+
+
+
+        // document.getElementById('demo').innerHTML = "Hello world"
+        // document.write("welcome")
+        // console.log(2 * 3, "mul")
+        // console.log("working")
+        // // alert("hi, Good morning")
+        // // prompt("Enter your name")
+
+        // // variable declaration
+
+        // // keyword let,var,const
+
+        // // let a = 10;
+
+        // // datatypes
+
+        // // primitive type
+        // //  Number
+
+        // let amount = 2500; // Number
+        // let name = "vidhya"  // String
+        // let isActive = true; // Boolean
+        // let value = null;  // null
+        // console.log(value)
+        // let checkUndefine = undefined // undefined
+        // console.log(checkUndefine)
+
+        // let data;  // declare
+
+        // console.log(data)
+
+        // // data = "There are two types of object properties: The data property and the accessor property.Each property has corresponding attributes"   // define
+
+        // console.log(data)
+
+        // let obj = {           // object
+        //     name: "vidhya",
+        //     phNum: 9387438538,
+        //     address: "sjd sddks skdksfk"
+        // }
+
+        // let arr = ["html", "css", "js"] // array
+
+        // // operators 1. arithmetic operators,2. assignment operators, comparison, logical, bitwise
+
+        // // arithmetic operators ( +, - , * , /, %)
+        // // assignment( = , ==, ===, )
+
+
+        // let a = 10;
+        // console.log(a, "before")
+        // let b = 12;
+        // let c = a * b;
+
+
+        // a += b;  // a = a + b
+        // console.log(a, "after")  // 22
+
+        // // reserved keywords -
+
+        // // for,switch,else
+
+        // // let for = 10;
+
+        // let name1 = "hello world";
+        // // length
+        // console.log(name1.length);
+        // // uppercase
+        // console.log(name1.toUpperCase());
+        // console.log(name1.toLowerCase());
+
+        // var data1 = "sample";
+        // console.log(data1.slice(1, 4), "slice")  // amp  // end not-inc
+
+        // let str = "Apple, Banana, Kiwi";
+        // let part = str.substring(0, 3);  // start and end position 0,0 , it return empty or 0
+        // console.log(part, "part");
+
+        // console.log(name1.substr(0, 7))   // starting position and another parameter - length
+
+        // // IndexOf(
+        // console.log(name1.indexOf('o'), "index of");
+        // //  lastIndexOf()
+        // console.log(name1.lastIndexOf('o'), "last index of");
+
+
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>

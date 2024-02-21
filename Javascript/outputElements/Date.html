@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        // in-built methods - Date,Math
+        var today = new Date();
+        console.log(today, 'today date')
+
+        // full year
+
+        console.log(today.getFullYear(), "full year")
+        console.log(today.getDate());
+        console.log(today.getDay());
+        console.log(today.getHours());
+        console.log(today.getMinutes());
+        console.log(today.getMilliseconds());
+        console.log(today.getSeconds(), 'sec');
+        console.log(today.getTimezoneOffset());
+
+        var findBdayDate = new Date('12-12-2012');
+        console.log(findBdayDate, "findBdayDate");
+
+        console.log(Date.now());
+
+
+        // Math() - round(),ceil(),floor(),trunc()
+
+        const roundData = Math.round(4.8);
+        console.log(roundData, "round")  // 5
+
+        const ceilData = Math.ceil(2.1);
+        console.log(ceilData, "ceil")  // 3
+
+        const floorData = Math.floor(13.7);
+        console.log(floorData, 'floor');   // 13
+
+        const truncData = Math.trunc(20.8);
+        console.log(truncData, 'trunc')  // 20
+
+        var n1 = Math.sqrt(64);
+        console.log(n1, 'sqrt');  // 8
+
+        var n2 = Math.abs(-24);
+        console.log(n2, 'abs');
+
+
+        // min // max
+        var minValue = Math.max(12, 546, 4);
+        console.log(minValue, "Minimun");
+        // min - 4   // max - 546
+
+
+    </script>
+
+</body>
+
+</html>

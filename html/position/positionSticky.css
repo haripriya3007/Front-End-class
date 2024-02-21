@@ -1,0 +1,22 @@
+.header {
+  background-color: aqua;
+}
+.navi {
+  background-color: bisque;
+}
+.content {
+  background-color: gray;
+}
+.footer {
+  background-color: red;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.navi {
+  position: sticky;
+  top: 10px;
+}

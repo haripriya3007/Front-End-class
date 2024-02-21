@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // method 1 to create object
+        const StudentObj = {
+            regNo: 'ST001',
+            name: 'aaaa',
+            email: 'aaaa@gmail.com',
+            address: 'no:2, aa street',
+            parentName: "sample",
+            mobile: 9458345738,
+            total: 450
+
+        }
+        console.log(StudentObj, "data")
+
+        // object accessing method 1
+
+        // dot
+
+        console.log(StudentObj.address, "address")
+
+        // square
+        console.log(StudentObj['email'], "email")
+
+        // destructuring method
+
+        const { regNo, name, total } = StudentObj;
+        console.log(total, "total marks")
+
+        //  method 2
+        const empObj = new Object;
+        empObj.name = 'employee1';
+        empObj.age = 45;
+        empObj.salary = 90000;
+        console.log(empObj, "employee")
+
+        // method 3
+        const employeeDetails = {};
+        employeeDetails.department = 'EEE';
+        employeeDetails.position = 'HR';
+        console.log(employeeDetails, "emp")
+
+        // json - 
+        const classRoom = [
+            {
+                regNo: 'ST001',
+                name: 'aaaa',
+                email: 'aaaa@gmail.com',
+                address: 'no:2, aa street'
+            },
+            {
+                regNo: 'ST002',
+                name: 'bbbb',
+                email: 'bbbb@gmail.com',
+                address: 'no:2, aa street'
+            },
+            {
+                regNo: 'ST001',
+                name: 'cccc',
+                email: 'ccc@gmail.com',
+                address: 'no:2, aa street'
+            }
+            , {
+                regNo: 'ST001',
+                name: 'aaaa',
+                email: 'aaaa@gmail.com',
+                address: 'no:2, aa street'
+            },
+            {
+                regNo: 'ST001',
+                name: 'aaaa',
+                email: 'aaaa@gmail.com',
+                address: 'no:2, aa street'
+            }
+        ]
+
+        console.log(classRoom.length, "classRoom")
+
+
+
+        // console.log(classRoom[1])
+
+
+
+        const myObj = {
+            empId: 'EMP01',
+            name: 'aaa',
+            department: 'sample',
+            salary: 20000
+        };
+
+        const myObj1 = {
+            empId1: 'EMP02',
+            name1: 'bbb',
+            department1: 'sample',
+            salary1: 14000
+        }
+
+        // spread operator  -  ...
+        var spreadData = { ...myObj, ...myObj1 }
+        console.log(spreadData, "spread operator")
+
+
+        const arr1 = ['cse', 'it', 'ece'];
+        const arr2 = ['eee', 'mech']
+
+        console.log(arr1.concat(arr2))
+        console.log([...arr1, ...arr2])
+
+
+        // loops
+        // 1. for loop - entry control loop
+        //  2. while loop -entry control loop
+        //  3. do while loop- exit control loop
+
+        // for(initialization: condition: incr/dec){
+        //     console.log('for loop')
+        // }
+
+
+        // while(condition){
+        //     console.log('while loop')
+        // }
+
+        // do{
+        //     console.log()
+        // }while(condition)
+
+        // console.log("hello world")
+        // console.log("hello world")
+        // console.log("hello world")
+        // console.log("hello world")
+        // console.log("hello world")
+        // console.log("hello world")
+        // console.log("hello world")
+        // console.log("hello world")
+        // console.log("hello world")
+        // console.log("hello world")
+
+        let count = 5;
+        for (let i = 1; i <= count; i++) {
+            console.log('hello world')
+        }
+
+        // itertation
+        // step 1
+        //  i = 1  1 <= 5   i = 2     o/p - hello world
+        //  i = 2  2 <= 5   i = 3     o/p - hello world
+        // i = 3   3 <= 5   i = 4     o/p - hello world
+        //  i= 4   4 <= 5    i = 5    o/p - hello world
+        // i = 5   5 <= 5    i = 6    o/p - hello world
+        //  i = 6  6 <= 5
+
+        let j = 1, totalCount = 5;
+        while (j <= totalCount) {
+            console.log(j, "j");
+            j++
+        }
+    </script>
+
+</body>
+
+</html>
